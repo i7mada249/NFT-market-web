@@ -1,0 +1,45 @@
+/*========= NAvBAR =========*/
+/*========= NAvBAR =========*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+
+    margin: 0 2rem;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.nav-btn {
+    border: none;
+    outline: none;
+    background-color: var(--cta);
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 950px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+
+/*========= NAvBAR =========*/
+/*========= NAvBAR =========*/

@@ -1,0 +1,133 @@
+/*========= HEADER =========*/
+/*========= HEADER =========*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 7rem;
+    gap: 4rem;
+    height: fit-content;
+}
+
+.header-content p {
+    margin: 1rem 0;
+    font-size: 22px;
+    color: var(--caption);
+}
+
+.header-content h1 {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.header-content button {
+    border: none;
+    outline: none;
+    background-color: var(--cta);
+    color: #fff;
+    font-size: 16px;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+}
+
+.header-nums {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.header-nums h3{
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+
+.header-nums p{
+    color: #fff;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.main-img img {
+    margin: 0;
+    padding: 0;
+}
+
+.header-card {
+    background-color: var(--bg-color2);
+    margin: 0;
+    padding: 1rem 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.header-card h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
+}
+
+.author p {
+    color: #fff;
+    font-weight: 300;
+}
+
+
+/*========= TRINDING =========*/
+/*========= TRINDING =========*/
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 7rem;
+}
+
+.more-imgs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-imgs button {
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: var(--cta);
+    font-size: 20px;
+    color: #fff;
+}
+
+.about-gallery {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.about-gallery h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
