@@ -17,7 +17,7 @@ const Header = () => {
                 <div><h3>240k+</h3><p>Artists</p></div>
             </div>
         </div>
-        <div className="header-img">
+        <div className="header-img scaleable">
             <img src={img} alt="" className='main-img'/>
             <div className='header-card'>
                 <h3>Space Walking</h3>

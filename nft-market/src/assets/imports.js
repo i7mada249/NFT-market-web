@@ -22,7 +22,32 @@ import top9 from './Avatar Placeholder-9.png'
 import top10 from './Avatar Placeholder-10.png'
 import top11 from './Avatar Placeholder-11.png'
 
+import cat from './frame 271.png'
+import cat1 from './frame 272.png'
+import cat2 from './frame 273.png'
+import cat3 from './frame 274.png'
+import cat4 from './frame 275.png'
+import cat5 from './frame 276.png'
+import cat6 from './frame 277.png'
+import cat7 from './frame 278.png'
+
+import author from './author.png'
+
+import dis1 from './dis1.png'
+import dis2 from './dis2.png'
+import dis3 from './dis3.png'
+
+import how from './Icon.png'
+import how1 from './Icon 1.png'
+import how2 from './Icon 2.png'
+
 export {
+    author,
+
+    dis1,
+    dis2,
+    dis3,
+
     img1,
     img2,
     img3,
@@ -46,4 +71,17 @@ export {
     top9,
     top10,
     top11,
+
+    cat,
+    cat1,
+    cat2,
+    cat3,
+    cat4,
+    cat5,
+    cat6,
+    cat7,
+
+    how,
+    how1,
+    how2
 }

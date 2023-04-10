@@ -15,7 +15,23 @@
     --red-ac: #FF7262 ;
 }
 
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+button:hover {
+    background-color: var(--blue-ac);
+    scale: .9;
+}
+
+.scaleable {
+    transition: 0.3s;
+}
+
+.scaleable:hover {
+    scale: .9;
+}
 
 * {
     padding: 0;
@@ -25,4 +41,8 @@
 body {
     padding: 0;
     margin: 0;
+}
+
+.section {
+    padding: 5rem 7rem;
 }

@@ -62,6 +62,10 @@
     padding: 0;
 }
 
+.main-img img:hover {
+    scale: none;
+}
+
 .header-card {
     background-color: var(--bg-color2);
     margin: 0;
@@ -78,6 +82,8 @@
 .author {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     gap: 1rem;
     margin: 1rem 0 0 0;
 }
@@ -90,13 +96,16 @@
 
 /*========= TRINDING =========*/
 /*========= TRINDING =========*/
-
+.trinding {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 .gallery {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 7rem;
 }
 
 .more-imgs {
@@ -130,4 +139,180 @@
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+
+/*========= TOP CREATORS =========*/
+/*========= TOP CREATORS =========*/
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.headline-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline-content h1 {color: #fff; margin-bottom: 1rem;}
+.headline-content p {color: var(--caption);}
+
+.top-creators {
+    display: grid;
+    grid-template-areas: '1 2 3 4';
+    gap: 1rem;
+    
+}
+
+.section-btn {
+    padding: 0 2rem;
+    background-color: transparent;
+    border: 2px solid var(--blue-ac);
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+
+/*========= Browse Categories =========*/
+/*========= Browse Categories =========*/
+
+.categories {
+    padding: 5rem 7rem;
+}
+
+.cat-cards {
+    display: grid;
+    grid-template-areas: '1 2 3 4';
+    gap: 1rem;
+}
+
+
+
+
+/*========= DISCOVER =========*/
+/*========= DISCOVER =========*/
+
+.discover-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+/*========= DISCOVER =========*/
+/*========= DISCOVER =========*/
+
+.nft-highlight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    background-image: url(../assets/highlight.png);
+    background-position: 0 80%;
+    min-height: 20rem;
+}
+
+.nft-highlight img{
+    width: 100%;
+
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.author2 {
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    padding: .3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
+    color: #fff;
+}
+
+.leftside h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.leftside button {
+    padding: 1rem 2rem;
+    outline: none;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: var(--bg-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.howpage {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+
+.join-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: last center;
+
+    padding: 3rem;
+    background-color: var(--bg-color2);
+    border-radius: 20px;
+}
+
+.join-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+}
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.join-content input {
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+}
+
+.join-content button {
+    background-color: var(--cta);
+    padding: 1rem 2rem;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
 }

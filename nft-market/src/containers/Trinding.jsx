@@ -1,4 +1,5 @@
 import React from 'react'
+import './cont.css'
 import '../assets/imports'
 import author from '../assets/author.png'
 import {
@@ -16,25 +17,28 @@ import {
 
 const Trinding = () => {
   return (
-    <div className='trinding'>
+    <div className='trinding section'>
 
-      <div className='trend-typo'>
-        <h2></h2>
-        <p></p>
+      <div className="headline">
+        <div className="headline-content">
+          <h1>Trending Collection</h1>
+          <p>Checkout our weekly updated trending collection.</p>
+        </div>
+        <button className='section-btn'>See All</button>
       </div>
 
       <div className="gallery">
 
         <div className="trend">
-          <img src={img1} alt="" />
+          <img src={img1} alt="" className='scaleable'/>
           <div className="more-imgs">
-            <img src={img01} alt="" />
-            <img src={img001} alt="" />
+            <img src={img01} alt="" className='scaleable'/>
+            <img src={img001} alt="" className='scaleable'/>
             <button>+1022</button>
           </div>
           <div className="about-gallery">
             <h3>Disco Machines</h3>
-            <div className="author">
+            <div className="author ">
               <img src={author} alt="" />
               <p>Animakid</p>
             </div>
@@ -42,10 +46,10 @@ const Trinding = () => {
         </div>
 
         <div className="trend">
-          <img src={img2} alt="" />
+          <img src={img2} alt="" className='scaleable'/>
           <div className="more-imgs">
-            <img src={img02} alt="" />
-            <img src={img002} alt="" />
+            <img src={img02} alt="" className='scaleable'/>
+            <img src={img002} alt="" className='scaleable'/>
             <button>+1022</button>
           </div>
           <div className="about-gallery">
@@ -58,10 +62,10 @@ const Trinding = () => {
         </div>
 
         <div className="trend">
-          <img src={img3} alt="" />
+          <img src={img3} alt="" className='scaleable'/>
           <div className="more-imgs">
-            <img src={img03} alt="" />
-            <img src={img003} alt="" />
+            <img src={img03} alt="" className='scaleable'/>
+            <img src={img003} alt="" className='scaleable'/>
             <button>+1022</button>
           </div>
           <div className="about-gallery">

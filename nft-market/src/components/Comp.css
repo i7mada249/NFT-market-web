@@ -41,5 +41,154 @@
 }
 
 
-/*========= NAvBAR =========*/
-/*========= NAvBAR =========*/
+/*========= Creator =========*/
+/*========= Creator =========*/
+
+.creator-card {
+    border-radius: 20px;
+    background-color: var(--bg-color2);
+    padding: 1rem;
+    transition: .3s;
+}
+
+.creator-card:hover {
+    scale: .9;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 20px;
+    background-color: var(--bg-color2);
+    padding: 1rem;
+}
+
+.sales {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem
+}
+
+.rank {
+    display: ;
+    top: 20%;
+    left: 20%;
+    color: #fff;
+    font-weight: 300;
+}
+
+.rank-bg {
+    background-color: var(--bg-color);
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100%;
+    padding: .3rem;
+    margin: 0;
+}
+
+.creator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    color: #fff;
+}
+
+.creator h4 {
+    font-weight: 500;
+}
+
+.creator p {
+    color: var(--caption);
+}
+
+/*========= CATEGORIES =========*/
+/*========= CATEGORIES =========*/
+.cat-card {
+    display: flex;
+    flex-direction: column;
+} 
+
+.cat-cont {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 20px 20px;
+    padding: 1rem 2rem;
+    background-color: var(--bg-color2);
+}
+
+.cat-card h3 {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.cat-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.cat-price p {color: var(--caption); margin-bottom: .5rem;}
+.cat-price h3 {font-weight: 400; font-size: 18px;}
+
+
+
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.3rem;
+
+    color: #fff;
+    background-color: rgba(29, 29, 29, 0.4);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+.timer div {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    gap: 2rem;
+}
+
+.time2 {
+    gap: 3.2rem;
+}
+
+
+
+.how-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color2);
+    padding: 3rem;
+    border-radius: 20px;
+    color: #fff;
+    gap: 1rem;
+    text-align: center;
+}
+
+.how-card p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.how-card img {}
